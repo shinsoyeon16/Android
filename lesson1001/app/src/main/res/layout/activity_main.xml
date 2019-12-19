@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:id="@+id/rbsecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second 액티비티" />
+
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:id="@+id/rbthird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Third 액티비티" />
+
+    <Button
+        android:id="@+id/btnOpen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="새 화면 열기" />
+</RadioGroup>
+</LinearLayout>

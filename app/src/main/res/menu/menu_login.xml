@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mMypage"
+        android:title="내 정보"></item>
+    <item
+        android:id="@+id/mFavorite"
+        android:title="즐겨찾기"></item>
+    <item
+        android:id="@+id/mSuggest"
+        android:title="맛집신청"></item>
+    <item
+        android:id="@+id/mLogout"
+        android:title="로그아웃"></item>
+</menu>
